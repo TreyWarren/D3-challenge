@@ -167,7 +167,7 @@ function createResponsiveChart() {
   // FUNCTION DEFINITIONS END /////////////////////////////////////////////////////////////////////
 
   // Retrieve data from the CSV file and execute all previously defined functions
-  d3.csv("./assets/data/data.csv").then(function(fullData, err) {
+  d3.csv("assets/data/data.csv").then(function(fullData, err) {
     if (err) throw err;
 
     // Parse data
